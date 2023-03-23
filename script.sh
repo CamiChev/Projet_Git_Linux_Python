@@ -12,3 +12,4 @@ date="$(date +"%Y-%m-%d %H:%M:%S")"
 
 echo "$price, $date" >> /home/camche/Projet/prices.txt
 
+crontab -e */5 * * * * /home/camche/Projet/script.sh
